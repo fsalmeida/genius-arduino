@@ -3,10 +3,8 @@
 #define botaoVerde 2
 #define botaoVermelho 3
 
-const int numeroMaximoJogadas = 20;
+const int numeroMaximoJogadas = 40;
 
-int estadoBotaoVerde = 0;
-int estadoBotaoVermelho = 0;
 int jogo[numeroMaximoJogadas];
 boolean deveReiniciarJogo = true;
 boolean deveApresentarJogo = true;
